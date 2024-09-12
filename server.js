@@ -19,7 +19,7 @@ connectDB();
 
 
 app.use(cors({
-  origin: 'https://mlmsystem-k02mrnfqf-chitranshu-pareeks-projects.vercel.app', // Replace with the domain of your frontend
+  origin: 'https://mlmsystem.vercel.app/', // Replace with the domain of your frontend
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed HTTP methods
   credentials: true, // If you’re using cookies or other authentication methods
 }));
